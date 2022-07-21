@@ -2,5 +2,6 @@ local list = loadstring(game:HttpGet('https://raw.githubusercontent.com/KevMP/Pr
 
 
 if list[getgenv().Key] == game:GetService("RbxAnalyticsService"):GetClientId() then 
-  print("YUH")
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/KevMP/Project-Slayers/main/UI_Code.lua'))()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/KevMP/Project-Slayers/main/Logic.lua'))()
 end
